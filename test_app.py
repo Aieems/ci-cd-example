@@ -7,5 +7,5 @@ class TestSum(unittest.TestCase):
         self.assertEquals(sum(1,2), 3)
 
 
-if name == 'main':
+if __name__ == 'main':
     unittest.main()
